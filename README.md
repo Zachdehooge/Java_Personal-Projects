@@ -30,17 +30,17 @@
 [![MIT License][license-shield]][license-url]
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Zachdehooge/Personal-Projects.svg?style=for-the-badge
 [contributors-url]: https://github.com/Zachdehooge/Personal-Projects/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Zachdehooge/Personal-Projects.svg?style=for-the-badge
 [forks-url]: https://github.com/Zachdehooge/Personal-Projects/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Zachdehooge/Personal-Projects.svg?style=for-the-badge
 [stars-url]: https://github.com/Zachdehooge/Personal-Projects/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Zachdehooge/Personal-Projects.svg?style=for-the-badge
 [issues-url]: https://github.com/Zachdehooge/Personal-Projects/issues
 
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Zachdehooge/Personal-Projects.svg?style=for-the-badge
 [license-url]: https://github.com/Zachdehooge/Personal-Projects/blob/master/LICENSE.txt
