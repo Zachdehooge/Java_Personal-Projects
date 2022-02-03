@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Zachdehooge/Personal-Projects">
-    <img src="/Zachdehooge/Personal-Projects/blob/main/Images/logo.png?raw=true" alt="Logo" width="80" height="80">
+    <img src="Calculator/src/calc.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Personal Projects</h3>
