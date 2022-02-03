@@ -4,22 +4,23 @@
 <br />
 <div align="center">
   <a href="https://github.com/Zachdehooge/Personal-Projects">
-    <img src="Calculator/src/calc.png" alt="Logo" width="80" height="80">
+    <img src="/Zachdehooge/Personal-Projects/blob/main/Images/logo.png?raw=true" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Personal Projects</h3>
 
   <p align="center">
-    project_description
+    A Github repository to house built from scratch projects.
     <br />
-    <a href="https://github.com/Zachdehooge/Personal-Projects"><strong>Explore the docs »</strong></a>
+    <!--<a href="https://github.com/Zachdehooge/Personal-Projects"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Zachdehooge/Personal-Projects">View Demo</a>
+    <a href="https://github.com/Zachdehooge/Personal-Projects">View Demo</a> -->
     ·
     <a href="https://github.com/Zachdehooge/Personal-Projects/issues">Report Bug</a>
     ·
     <a href="https://github.com/Zachdehooge/Personal-Projects/issues">Request Feature</a>
+    · 
   </p>
 </div>
 
