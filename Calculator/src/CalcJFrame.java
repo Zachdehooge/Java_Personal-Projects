@@ -57,20 +57,20 @@ public class CalcJFrame extends JFrame {
                 int parsed2 = Integer.parseInt(getValue3);
 
                 if(getValue2.equals("+")){
-                    System.out.println(parsed1 + " + " + parsed2 + " = " + (parsed1 + parsed2));
-                }
+                     output.setText(parsed1 + " + " + parsed2 + " = " + (parsed1 + parsed2));
+                 }
 
-                if(getValue2.equals("-")){
-                    System.out.println(parsed1 + " - " + parsed2 + " = " + (parsed1 - parsed2));
-                }
+                 if(getValue2.equals("-")){
+                     output.setText(parsed1 + " - " + parsed2 + " = " + (parsed1 - parsed2));
+                 }
 
-                if(getValue2.equals("*")){
-                    System.out.println(parsed1 + " * " + parsed2 + " = " + (parsed1 * parsed2));
-                }
+                 if(getValue2.equals("*")){
+                     output.setText(parsed1 + " * " + parsed2 + " = " + (parsed1 * parsed2));
+                 }
 
-                if(getValue2.equals("/")){
-                    System.out.println(parsed1 + " / " + parsed2 + " = " + (parsed1 / parsed2));
-                }
+                 if(getValue2.equals("/")){
+                     output.setText(parsed1 + " / " + parsed2 + " = " + (parsed1 / parsed2));
+                 }
             }
         });
 
