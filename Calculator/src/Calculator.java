@@ -1,49 +1,91 @@
-import java.util.Scanner;
+import javax.swing.*;
 
-public class Calculator {
+public class Calculator extends JFrame {
 
-    public void responses(){
+    public Calculator() {
 
-        System.out.print("Enter a first number: ");
+        this.setTitle("Calculator");
 
-        Scanner first = new Scanner(System.in);
+        ImageIcon image = new ImageIcon("Calculator/src/calc.png");
+        this.setIconImage(image.getImage());
 
-        int first_response = Integer.parseInt(first.nextLine());
+        JLabel firstNumber = new JLabel("Enter the first number :");
+        firstNumber.setBounds(75, 70, 250, 55);
+        this.add(firstNumber);
 
-        System.out.print("Enter +, -, *, /: ");
+        JTextField first_response = new JTextField();
+        first_response.setBounds(235, 85, 35, 25);
+        this.add(first_response);
 
-        Scanner parameter = new Scanner(System.in);
+        JLabel response = new JLabel("Enter +, -, *, / :");
+        response.setBounds(75, 120, 250, 55);
+        this.add(response);
 
-        String function = parameter.next();
+        JTextField function = new JTextField();
+        function.setBounds(235, 135, 35, 25);
+        this.add(function);
 
-        System.out.print("Enter a second number: ");
+        JLabel secondNumber = new JLabel("Enter the second number : ");
+        secondNumber.setBounds(75, 170, 250, 55);
+        this.add(secondNumber);
 
-        Scanner second = new Scanner(System.in);
+        JTextField second_response = new JTextField();
+        second_response.setBounds(235, 185, 35, 25);
+        this.add(second_response);
 
-        int second_response = Integer.parseInt(second.nextLine());
+        JLabel finished = new JLabel("Final Product : ");
+        finished.setBounds(75, 300, 250, 55);
+        this.add(finished);
 
-        //TODO: Find disconnect of input from "if" statements
-        if(function.equals("+")){
-            System.out.println("Your total is: " + (first_response + second_response));
-        }
+        JTextArea output = new JTextArea();
+        output.setBounds(160, 320, 125, 55);
+        this.add(output);
+        output.setEditable(false);
+        output.setSize(200,50);
+        //output.setLineWrap(true);
 
-        if(function.equals("-")){
-            System.out.println("Your total is: " + (first_response - second_response));
-        }
+        JButton button = new JButton("Calculate");
 
-        if(function.equals("*")){
-            System.out.println("Your total is: " + (first_response * second_response));
-        }
+        button.addActionListener((e) -> {
 
-        if(function.equals("/")){
-            System.out.println("Your total is: " + (first_response / second_response));
-        }
+            String getValue1 = first_response.getText();
+
+            int parsed1 = Integer.parseInt(getValue1);
+
+            String getValue2 = function.getText();
+
+            String getValue3 = second_response.getText();
+
+            int parsed2 = Integer.parseInt(getValue3);
+
+            if (getValue2.equals("+")) {
+                output.setText(parsed1 + " + " + parsed2 + " = " + (parsed1 + parsed2));
+            }
+
+            if (getValue2.equals("-")) {
+                output.setText(parsed1 + " - " + parsed2 + " = " + (parsed1 - parsed2));
+            }
+
+            if (getValue2.equals("*")) {
+                output.setText(parsed1 + " * " + parsed2 + " = " + parsed1 * parsed2);
+            }
+
+            if (getValue2.equals("/")) {
+                output.setText(parsed1 + " / " + parsed2 + " = " + parsed1 / parsed2);
+            }
+
+        });
+
+        button.setBounds(225, 250, 100, 40);
+        this.add(button);
+        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        this.setSize(600, 500);
+        this.setLocationRelativeTo(null);
+        this.setLayout(null);
+        this.setVisible(true);
     }
 
-    public static void main(String[] args){
-
-        Calculator Calculator = new Calculator();
-
-        Calculator.responses();
+    public static void main(String[] args) {
+        new Calculator();
     }
 }
