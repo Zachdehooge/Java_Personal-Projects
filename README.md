@@ -4,10 +4,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/Zachdehooge/Personal-Projects">
-    <img src="Calculator/src/calc.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Personal Projects</h3>
+<h1 align="center">Personal Projects</h1>
 
   <p align="center">
     A Github repository to house built from scratch projects.
